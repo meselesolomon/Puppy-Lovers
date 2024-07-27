@@ -11,7 +11,7 @@ img {
 .bg-color {
     background-color: #0C4F70;
     padding: 34px 0 40px;
-    text-align: center;
+    /* text-align: center; */
     color: white;
 } 
 .banner-image {
@@ -21,13 +21,13 @@ img {
 
 .puppies {
     display: flex;
-    width: 960px;
+    width: 80%;
     margin: 0 auto;
     justify-content: space-between;
 }
 
 h2 {
-    text-align: center;
+    /* text-align: center; */
     margin: 30px 0px;
     font-weight: bold;
     font-size: 30px;
@@ -38,15 +38,24 @@ h2 {
     color: black;
     font-size: 40px;
     font-weight: bold;
-    width: 309px;
-    height: 310px;
+    width: 356px;
+    height: 356px;
 }
 .missing-puppy p {
     font-size: 30px;
     padding: 120px;
-    text-align: center;
+    /* text-align: center; */
 }
 footer {
     margin-top: 30px;
     font-size: 40px;
+}
+
+.blue {
+    background-color: blue;
+    color: white;
+}
+.red {
+    background-color: red;
+    color: white;
 }
